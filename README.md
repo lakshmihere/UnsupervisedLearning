@@ -1,11 +1,13 @@
 # UnsupervisedLearning
 
-# 1. Credit Card Customer Segmentation Dataset: Description 🔈
+# 1. Credit Card Customer Segmentation Dataset: 
+## Description 🔈
 
-The dataset chosen for the current project is Credit Card Dataset from Kaggle. The link to the dataset is as follows, https://www.kaggle.com/arjunbhasin2013/ccdata
-This case requires to develop a customer segmentation to define marketing strategy. The sample Dataset summarizes the usage behavior of about 9000 active credit card holders during the last 6 months. The file is at a customer level with 18 behavioral variables.
+The dataset chosen for the current project is Credit Card Dataset from Kaggle. The link to the dataset is as follows, https://www.kaggle.com/arjunbhasin2013/ccdata. This case requires to develop a customer segmentation to define marketing strategy. The sample Dataset summarizes the usage behavior of about 9000 active credit card holders during the last 6 months. The file is at a customer level with 18 behavioral variables.
 
-# 2. Attribute List: The credit card dataset attributes for each customer as listed below.
+# 2. Attribute List: 
+
+** The credit card dataset attributes for each customer as listed below. **
 
 CUST_ID : Identification of Credit Card holder (Categorical)
 BALANCE : Balance amount left in their account to make purchases
