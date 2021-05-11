@@ -7,30 +7,47 @@ The dataset chosen for the current project is Credit Card Dataset from Kaggle. T
 
 # 2. Attribute List: 
 
-** The credit card dataset attributes for each customer as listed below. **
+*The credit card dataset attributes for each customer as listed below.*
 
 CUST_ID : Identification of Credit Card holder (Categorical)
+
 BALANCE : Balance amount left in their account to make purchases
+
 BALANCE_FREQUENCY : How frequently the Balance is updated, score between 0 and 1 (1 = frequently updated, 0 = not frequently updated)
+
 PURCHASES : Amount of purchases made from account
+
 ONEOFF_PURCHASES : Maximum purchase amount done in one-go
+
 INSTALLMENTS_PURCHASES : Amount of purchase done in installment
+
 CASH_ADVANCE : Cash in advance given by the user
+
 PURCHASES_FREQUENCY : How frequently the Purchases are being made, score between 0 and 1 (1 = frequently purchased, 0 = not frequently purchased)
+
 ONEOFFPURCHASESFREQUENCY : How frequently Purchases are happening in one-go (1 = frequently purchased, 0 = not frequently purchased)
+
 PURCHASESINSTALLMENTSFREQUENCY : How frequently purchases in installments are being done (1 = frequently done, 0 = not frequently done)
+
 CASHADVANCEFREQUENCY : How frequently the cash in advance being paid
+
 CASHADVANCETRX : Number of Transactions made with "Cash in Advanced"
+
 PURCHASES_TRX : Numbe of purchase transactions made
+
 CREDIT_LIMIT : Limit of Credit Card for user
+
 PAYMENTS : Amount of Payment done by user
+
 MINIMUM_PAYMENTS : Minimum amount of payments made by user
+
 PRCFULLPAYMENT : Percent of full payment paid by user
+
 TENURE : Tenure of credit card service for user
 
 # 3. Part I: Data Preprocessing 
 
-Summary:
+*Summary:*
 
 - All the relevant libraries for the project were imported and the data was read into the file
 - A basic exploratory data analysis reveals the summary of the data along with the data types and the descriptive statistics
@@ -41,7 +58,7 @@ Summary:
 
 # 4. Part II: Machine Learning
 
-Summary:
+*Summary:*
 
 - The data was first standardized.
 - Application of Clustering Methods for Analysis
@@ -49,7 +66,7 @@ Summary:
 - Visualization of Clusters
 - Interpretation of Clusters
 
-Models:
+*Models:*
 
 	(A). KMeans
         - The tuned hyperparameters for KMeans are n_clusters = 3, n_init=1000, max_iter=400, init='k-means++’
@@ -64,7 +81,7 @@ Models:
         - The tuned hyperparameters for Gaussian Mixture Models are n_clusters = 3, affinity='euclidean’, linkage="ward"
         - The silhouette score Gaussian Mixture Models is 0.1657
 
-Final Model Selection for dataset:
+*Final Model Selection for dataset:*
 
 - For the final selection of models, we compared the silhouette scores of all the models
 - From the silhouette scores, DBSCAN is the best model but PCA reveals a different story. DBSCAN clusters are 
