@@ -1,11 +1,10 @@
 # UnsupervisedLearning
 
-# 1. Credit Card Customer Segmentation Dataset: 
-## Description 🔈
+## 1. Credit Card Customer Segmentation Dataset Description: 🔈
 
 The dataset chosen for the current project is Credit Card Dataset from Kaggle. The link to the dataset is as follows, https://www.kaggle.com/arjunbhasin2013/ccdata. This case requires to develop a customer segmentation to define marketing strategy. The sample Dataset summarizes the usage behavior of about 9000 active credit card holders during the last 6 months. The file is at a customer level with 18 behavioral variables.
 
-# 2. Attribute List: 
+## 2. Attribute List: 
 
 *The credit card dataset attributes for each customer as listed below.*
 
@@ -45,7 +44,7 @@ PRCFULLPAYMENT : Percent of full payment paid by user
 
 TENURE : Tenure of credit card service for user
 
-# 3. Part I: Data Preprocessing 
+## 3. Part I: Data Preprocessing 
 
 *Summary:*
 
@@ -56,7 +55,7 @@ TENURE : Tenure of credit card service for user
 - Univariate analysis was conducted to understand the distribution of various attributes
 - Obtained Correlation Heat Map to understand correlation of variables and also to extract some important features
 
-# 4. Part II: Machine Learning
+## 4. Part II: Machine Learning
 
 *Summary:*
 
@@ -88,12 +87,12 @@ TENURE : Tenure of credit card service for user
 not distinct and most values are clustered as noise. 
 - KMeans is the dest model for the current dataset
 
-# 5. Conclusions:
+## 5. Conclusions:
  
 - In this project, we have performed data preprocessing, feature extraction with PCA, looked at various clustering metrics (inertias, silhouette scores), experimented with various Clustering algorithms (KMeans Clustering, Agglomerative Hierarchical Clustering, DBSCAN Clustering, and Gaussian Mixture Clustering), data visualizations.
 - In this dataset we have segmented the customers into three smaller groups: the Active Users, the Cautious Spenders, and the Average Joe.
 
-# 6. Future Goals:
+## 6. Future Goals:
 
 - Advanced data preparation: Building an enriched customer profile by deriving “intelligent” KPIs like limit usage(balance to credit limit ratio), average amount per purchase can be used for to improve accuracies.
 - Using dimensionality reduction not just for visualization but actual reduction of features could potentially improve the cluster analysis and hence the accuracy associated.
